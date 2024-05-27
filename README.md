@@ -15,6 +15,48 @@ Features:
 * Icon Pack [from astro-icons, iconify, and remix](https://icon-sets.iconify.design/ri/)
 * Mobile-first design
 * SEO Optimization
+* Netlify-ready contact form
+
+## Project structure
+
+Inside **CLoudstrap** template, you'll see the following folders and files:
+
+```
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   ├── ColorModeButton.astro
+│   │   ├── ColorModeGraphics.astro
+│   │   ├── Footer.astro
+│   │   ├── Meta.astro
+│   │   └── Navbar.astro
+│   ├── layouts/
+│   │   └── Layout.astro
+│   ├── pages/
+│   │   ├── about.astro
+│   │   ├── contact.astro
+│   │   ├── index.astro
+│   │   └── thankyou.astro
+│   ├── scripts/
+│   │   └── color-modes.js
+│   ├── styles/
+│   │   └── stylesheet.scss
+│   └── env.d.ts
+├── .gitignore
+├── package.json
+├── astro.config.mjs
+├── README.md
+├── tsconfig.json
+└── ...
+```
+
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+
+Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the `assets/` directory if they are imported directly.
 
 ## Commands
 
