@@ -1,5 +1,5 @@
 # Cloudstrap Theme for Astro
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b60352ff-0308-4fc4-8b98-a35eee6772aa/deploy-status)](https://app.netlify.com/sites/cloudstrap/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b60352ff-0308-4fc4-8b98-a35eee6772aa/deploy-status)](https://app.netlify.com/sites/cloudstrap/deploys)![GitHub last commit](https://img.shields.io/github/last-commit/hvxley/cloudstrap)
 
 ```sh
 npm create astro@latest -- --template hvxley/cloudstrap
