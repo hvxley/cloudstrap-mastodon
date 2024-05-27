@@ -1,43 +1,20 @@
 ---
-import '../styles/stylesheet.scss';
-import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
-import ColorModeGraphics from '../components/ColorModeGraphics.astro';
-import ColorModeButton from '../components/ColorModeButton.astro';
+import Layout from '../layouts/Layout.astro';
 ---
 
-<html lang="en" data-bs-theme="auto">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-    <script>import "../scripts/color-modes.js";</script>
-	</head>
-	<body>
-    <ColorModeGraphics />
-	  <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Cloudstrap</h1>
-        </div>
-        <div class="col">
-          <ColorModeButton />
-        </div>
-      </div>
-    </div>
-		<div class="container">
-		  <footer class="py-3 my-4">
-		    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-		      <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li>
-		      <li class="nav-item"><a href="/blog/" class="nav-link px-2 text-body-secondary">Blog</a></li>
-		      <li class="nav-item"><a href="/about/" class="nav-link px-2 text-body-secondary">About</a></li>
-		      <li class="nav-item"><a href="/contact/" class="nav-link px-2 text-body-secondary">Contact</a></li>
-		    </ul>
-		    <p class="text-center text-body-secondary">&copy; 2024 Company, Inc</p>
-		  </footer>
-		</div>
-
-    <script src={bootstrap}></script>
-	</body>
-</html>
+<Layout title="Cloudstrap" description="🌩️ Cloudstrap: An Astro starter template utilizing Bootstrap, Astro-Icons & Sass." ogPic="https://huxley.cloud/og_picture.png">
+  <main>
+		<div class="bg-auto text-secondary px-4 py-5 text-center">
+	    <div class="py-5">
+	      <h1 class="display-5 fw-bold text-secondary">Cloudstrap</h1>
+	      <div class="col-lg-6 mx-auto">
+	        <p class="fs-5 mx-2 mb-4">Patching the internet to bring you and I closer together.</p>
+	        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+	          <a href="/about/" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">About Me</a>
+	          <a href="/contact/" class="btn btn-outline-success btn-lg px-4">Contact Me</a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+  </main>
+</Layout>
