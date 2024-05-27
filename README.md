@@ -3,6 +3,10 @@ This free starter template brings bootstrap, bootstrap-icons, and Sass to your A
 
 Check back again soon!
 
+Features:
+* Dark Mode
+* Icon Pack [from bootstrap-icons](https://icons.getbootstrap.com/)
+
 ## Commands
 
 All commands are run from the root of the project, from a terminal:
