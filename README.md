@@ -1,14 +1,20 @@
 # Cloudstrap Theme for Astro
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b60352ff-0308-4fc4-8b98-a35eee6772aa/deploy-status)](https://app.netlify.com/sites/cloudstrap/deploys)
 
+```sh
+npm create astro@latest -- --template hvxley/cloudstrap
+```
+
 This free starter template brings bootstrap, astro-icons, and Sass to your Astro project.
 
 Check back again soon!
 
 Features:
-* Dark Mode
+* Dark Mode (Lighthouse accessibility score of 94)
+* Light Mode (Lighthouse accessibility score of 100)
 * Icon Pack [from astro-icons, iconify, and remix](https://icon-sets.iconify.design/ri/)
 * Mobile-first design
+* SEO Optimization
 
 ## Commands
 
