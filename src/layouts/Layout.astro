@@ -1,0 +1,41 @@
+---
+import '../styles/stylesheet.scss';
+import Meta from '../components/Meta.astro';
+import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
+import ColorModeGraphics from '../components/ColorModeGraphics.astro';
+import ColorModeButton from '../components/ColorModeButton.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Props {
+	title: string;
+	description?: string;
+  ogPic?: string;
+}
+
+
+const { title, description, ogPic } = Astro.props;
+---
+
+<html lang="en" data-bs-theme="auto">
+	<head>
+  <Meta title="Cloudstrap" description="🌩️ Cloudstrap: An Astro starter template utilizing Bootstrap, Astro-Icons & Sass." ogPic="https://huxley.cloud/og_picture.png" />
+  <title>{title}</title>
+    <script>import "../scripts/color-modes.js";</script>
+	</head>
+	<body>
+    <ColorModeGraphics />
+	  <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Cloudstrap</h1>
+        </div>
+        <div class="col justify-content-end d-flex">
+          <ColorModeButton />
+        </div>
+      </div>
+    </div>
+    <slot />
+		<Footer />
+    <script src={bootstrap}></script>
+	</body>
+</html>

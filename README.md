@@ -8,6 +8,7 @@ Check back again soon!
 Features:
 * Dark Mode
 * Icon Pack [from astro-icons, iconify, and remix](https://icon-sets.iconify.design/ri/)
+* Mobile-first design
 
 ## Commands
 
