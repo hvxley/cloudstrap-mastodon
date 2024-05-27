@@ -1,6 +1,6 @@
 ---
 import ColorModeButton from '../components/ColorModeButton.astro';
-
+import { Icon } from 'astro-icon/components';
 const { title } = Astro.props;
 ---
 <header>
@@ -22,10 +22,48 @@ const { title } = Astro.props;
             <a class="nav-link" href="/about/">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact/">Contact</a>
+            <span class="nav-link" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-lg-10 mx-auto">
+            <p class="fs-5 mb-4">Please use the form below to reach out to us directly. Each form field is required.</p>
+              <form name="contact-us" action="/thankyou/" method="post" data-netlify="true">
+              <div class="d-grid gap-2 justify-content-sm-center">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="inputGroup-full-name"><Icon name="ri:map-pin-user-fill" size={15} /></span>
+                  <input type="text" name="fullName" class="form-control" aria-label="Input for user's full name" aria-describedby="inputGroup-full-name" placeholder="Full name" required>
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="inputGroup-email"><Icon name="ri:mail-send-line" size={15} /></span>
+                  <input type="email" name="email" placeholder="Email" class="form-control" aria-label="Input for user's email address" aria-describedby="inputGroup-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                </div>
+                <div class="input-group mb-3">
+                  <textarea name="message" class="form-control" aria-label="Input for user's message" aria-describedby="inputGroup-message" placeholder="Say it ..." required></textarea>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <input type="reset" class="btn btn-outline-secondary" value="Reset" />
+                  <input type="submit" class="btn btn-outline-primary" value="Submit" />
+                </div></form>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
+<style>
+  span.nav-link {
+    cursor: pointer;
+  }
+</style>

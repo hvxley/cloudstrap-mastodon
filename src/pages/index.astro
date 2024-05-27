@@ -4,17 +4,38 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Cloudstrap" description="🌩️ Cloudstrap: An Astro starter template utilizing Bootstrap, Astro-Icons & Sass." ogPic="https://huxley.cloud/og_picture.png">
   <main>
-		<div class="bg-auto text-secondary px-4 py-5 text-center">
-	    <div class="py-5">
-	      <h1 class="display-5 fw-bold text-body">Cloudstrap</h1>
-	      <div class="col-lg-6 mx-auto">
-	        <p class="fs-5 mx-2 mb-4">Patching the internet to bring you and I closer together.</p>
-	        <div class="d-grid gap-2 d-sm-flex justify-content-sm-end">
-	          <a href="/about/" class="btn btn-outline-primary btn-lg px-4 me-sm-3 fw-bold">About Me</a>
-	          <a href="/contact/" class="btn btn-outline-secondary btn-lg px-4">Contact Me</a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
+    <div class="container marketing">
+    <div class="row">
+     <div class="col-lg-4">
+       <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+       <h2 class="fw-normal">Heading</h2>
+       <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+       <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+     </div>
+     <div class="col-lg-4">
+       <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+       <h2 class="fw-normal">Heading</h2>
+       <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+       <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+     </div>
+     <div class="col-lg-4">
+       <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+       <h2 class="fw-normal">Heading</h2>
+       <p>And lastly this, the third column of representative placeholder content.</p>
+       <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+     </div>
+   </div>
   </main>
 </Layout>
+<style>
+  .marketing .col-lg-4 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+</style>

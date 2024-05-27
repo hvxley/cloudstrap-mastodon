@@ -19,7 +19,7 @@ Features:
 
 ## Project structure
 
-Inside **CLoudstrap** template, you'll see the following folders and files:
+Inside **Cloudstrap** template, you'll see the following folders and files:
 
 ```
 /
@@ -36,7 +36,6 @@ Inside **CLoudstrap** template, you'll see the following folders and files:
 │   │   └── Layout.astro
 │   ├── pages/
 │   │   ├── about.astro
-│   │   ├── contact.astro
 │   │   ├── index.astro
 │   │   └── thankyou.astro
 │   ├── scripts/
