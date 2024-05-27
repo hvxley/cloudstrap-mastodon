@@ -1,20 +1,35 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Icon } from 'astro-icon/components';
 ---
 
-<Layout title="Cloudstrap" description="🌩️ Cloudstrap: An Astro starter template utilizing Bootstrap, Astro-Icons & Sass." ogPic="https://huxley.cloud/og_picture.png">
+<Layout title="Contact Cloudstrap" description="🌩️ Cloudstrap: An Astro starter template utilizing Bootstrap, Astro-Icons & Sass." ogPic="https://huxley.cloud/og_picture.png">
   <main>
-		<div class="bg-auto text-secondary px-4 py-5 text-center">
-	    <div class="py-5">
-	      <h1 class="display-5 fw-bold text-secondary">Cloudstrap</h1>
-	      <div class="col-lg-6 mx-auto">
-	        <p class="fs-5 mx-2 mb-4">Patching the internet to bring you and I closer together.</p>
-	        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-	          <a href="/about/" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">About Me</a>
-	          <a href="/contact/" class="btn btn-outline-success btn-lg px-4">Contact Me</a>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-white">Contact Us</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">Please use the form below to reach out to us directly. Each form field is required.</p>
+            <form name="contact-us" action="/thankyou/" method="post" data-netlify="true">
+            <div class="d-grid gap-2 justify-content-sm-center">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-full-name"><Icon name="ri:map-pin-user-fill" size={15} /></span>
+                <input type="text" name="fullName" class="form-control" aria-label="Input for user's full name" aria-describedby="inputGroup-full-name" placeholder="Full name" required>
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-email"><Icon name="ri:mail-send-line" size={15} /></span>
+                <input type="email" name="email" placeholder="Email" class="form-control" aria-label="Input for user's email address" aria-describedby="inputGroup-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+              </div>
+              <div class="input-group mb-3">
+                <textarea name="message" class="form-control" aria-label="Input for user's message" aria-describedby="inputGroup-message" placeholder="Say it ..." required></textarea>
+              </div>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <input type="reset" class="btn btn-outline-secondary" value="Reset" />
+                <input type="submit" class="btn btn-outline-primary" value="Submit" />
+              </div></form>
+            </div>
+        </div>
+      </div>
+    </div>
   </main>
 </Layout>
