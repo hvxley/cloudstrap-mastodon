@@ -13,11 +13,12 @@
     "@astrojs/check": "^0.7.0",
     "@popperjs/core": "^2.11.8",
     "astro": "^4.9.1",
+    "astro-icon": "^1.1.0",
     "bootstrap": "^5.3.3",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
-    "bootstrap-icons": "^1.11.3",
+    "@iconify-json/ri": "^1.1.20",
     "sass": "^1.77.2"
   }
 }

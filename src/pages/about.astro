@@ -3,8 +3,6 @@ import '../styles/stylesheet.scss';
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
 import ColorModeGraphics from '../components/ColorModeGraphics.astro';
 import ColorModeButton from '../components/ColorModeButton.astro';
-import Footer from '../components/Footer.astro';
-
 ---
 
 <html lang="en" data-bs-theme="auto">
@@ -13,7 +11,6 @@ import Footer from '../components/Footer.astro';
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content="🌩️ Cloudstrap: An Astro starter template utilizing Bootstrap, Bootstrap-Icons & Sass." />
 		<title>Astro</title>
     <script>import "../scripts/color-modes.js";</script>
 	</head>
@@ -24,12 +21,23 @@ import Footer from '../components/Footer.astro';
         <div class="col">
           <h1>Cloudstrap</h1>
         </div>
-        <div class="col justify-content-end d-flex">
+        <div class="col">
           <ColorModeButton />
         </div>
       </div>
     </div>
-		<Footer />
+		<div class="container">
+		  <footer class="py-3 my-4">
+		    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+		      <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li>
+		      <li class="nav-item"><a href="/blog/" class="nav-link px-2 text-body-secondary">Blog</a></li>
+		      <li class="nav-item"><a href="/about/" class="nav-link px-2 text-body-secondary">About</a></li>
+		      <li class="nav-item"><a href="/contact/" class="nav-link px-2 text-body-secondary">Contact</a></li>
+		    </ul>
+		    <p class="text-center text-body-secondary">&copy; 2024 Company, Inc</p>
+		  </footer>
+		</div>
+
     <script src={bootstrap}></script>
 	</body>
 </html>
