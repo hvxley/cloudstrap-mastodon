@@ -3,7 +3,7 @@ import '../styles/stylesheet.scss';
 import Meta from '../components/Meta.astro';
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js?url";
 import ColorModeGraphics from '../components/ColorModeGraphics.astro';
-import ColorModeButton from '../components/ColorModeButton.astro';
+import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 
 export interface Props {
@@ -24,16 +24,7 @@ const { title, description, ogPic } = Astro.props;
 	</head>
 	<body>
     <ColorModeGraphics />
-	  <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Cloudstrap</h1>
-        </div>
-        <div class="col justify-content-end d-flex">
-          <ColorModeButton />
-        </div>
-      </div>
-    </div>
+    <Navbar title="Cloudstrap" />
     <slot />
 		<Footer />
     <script src={bootstrap}></script>
