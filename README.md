@@ -1,4 +1,6 @@
 # Cloudstrap Theme for Astro
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b60352ff-0308-4fc4-8b98-a35eee6772aa/deploy-status)](https://app.netlify.com/sites/cloudstrap/deploys)
+
 This free starter template brings bootstrap, bootstrap-icons, and Sass to your Astro project.
 
 Check back again soon!
