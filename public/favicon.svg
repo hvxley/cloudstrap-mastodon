@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="125.59931"
+   height="125.11402"
+   viewBox="0 0 125.59931 125.11402"
+   version="1.1"
+   id="svg135"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview137"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs132" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.4991894,-1.2188191)">
+    <path
+       d="M 10.055007,34.158713 V 61.109538 H 1.4991894 V 1.2188192 H 10.055007 V 26.458478 H 38.716994 V 1.2188192 h 8.555817 V 61.109538 H 38.716994 V 34.158713 Z"
+       style="font-size:333.333px;font-family:Quantico;-inkscape-font-specification:Quantico;display:inline;fill:#aa87de;stroke:none;stroke-width:1.23204;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       id="path3926" />
+    <path
+       d="M 50.010674,47.59134 V 10.116861 h 8.299139 V 45.880177 H 78.073744 V 10.116861 h 8.299143 v 43.206876 h -6.245744 l -2.053399,-3.507886 -6.074619,3.507886 H 59.935412 Z"
+       style="font-size:333.333px;font-family:Quantico;-inkscape-font-specification:Quantico;display:inline;fill:#aa87de;stroke:none;stroke-width:1.23204;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       id="path3928" />
+    <path
+       d="M 87.741733,61.109538 103.05664,39.292203 88.255083,18.330453 h 9.240291 l 9.924746,14.716006 9.92476,-14.716006 h 9.24027 l -14.88711,20.96175 15.40046,21.817335 h -8.98359 L 107.42012,45.452393 96.72535,61.109538 Z"
+       style="font-size:333.333px;font-family:Quantico;-inkscape-font-specification:Quantico;display:inline;fill:#aa87de;stroke:none;stroke-width:1.23204;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       id="path3930" />
+    <path
+       d="m 31.492079,126.16056 -9.993306,-5.77199 V 63.271766 h 8.356455 v 55.393824 h 10.337894 v 7.49497 z"
+       style="font-size:333.333px;font-family:Quantico;-inkscape-font-specification:Quantico;display:inline;fill:#aa87de;stroke:none;stroke-width:1.24055;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       id="path3932" />
+    <path
+       d="m 70.431358,109.87838 v 7.49497 H 46.395781 l -9.99328,-5.77199 V 79.640073 l 9.99328,-5.771985 h 14.042297 l 9.99328,5.771985 V 98.765158 H 44.758957 V 109.87838 Z M 44.758957,81.363053 v 9.90714 h 17.315946 v -9.90714 z"
+       style="font-size:333.333px;font-family:Quantico;-inkscape-font-specification:Quantico;display:inline;fill:#aa87de;stroke:none;stroke-width:1.24055;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       id="path3934" />
+    <path
+       d="M 77.840217,126.33284 85.335164,107.12161 68.708419,66.028518 h 8.356456 l 12.233166,30.669056 h 0.172281 L 101.61735,66.028518 h 8.35645 L 86.024366,126.33284 Z"
+       style="font-size:333.333px;font-family:Quantico;-inkscape-font-specification:Quantico;display:inline;fill:#aa87de;stroke:none;stroke-width:1.24055;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       id="path3936" />
+  </g>
+</svg>
