@@ -9,27 +9,27 @@ const posts = (await getCollection('blog')).sort(
 ---
 <Layout title="Cloudstrap Blog" description="Demonstration pages to inspire your creative writing." ogPic="https://huxley.cloud/arctic-fox.jpg">
   <main>
-    <div class="bg-tertiary text-body px-4 py-5 text-left">
-    <div class="py-5">
+    <div class="bg-tertiary text-body px-2 py-2 text-left">
+    <div class="py-2">
 			<h1 class="display-5 fw-bold text-body text-center">Cloudstrap Blog</h1>
       <div class="mx-auto">
 				<section>
-					<ul class="list-group">
-						{
-							posts.map((post) => (
-								<li class="mx-auto py-4" style="list-style-type: none;">
-									<a class="list-group-item list-group-item-action" href={`/blog/${post.slug}/`}>
-										<img width={500} height={250} src={post.data.heroImage} class="" alt="" />
-										<h4 class="fs-4">{post.data.title}</h4>
-										<p class="fs-5 text-secondary">{post.data.description}</p>
-										<p class="fs-5 text-secondary">
-											<FormattedDate date={post.data.pubDate} />
-										</p>
-									</a>
-								</li>
-							))
-						}
-					</ul>
+          { posts.map((post) => (
+            <div class="card w-75 my-5 mx-auto">
+              <a href={`/blog/${post.slug}/`}>
+                <img src={post.data.heroImage} class="bd-placeholder-img card-img-top rounded-top" aria-label="Blog Post Image cap" alt="Blog Post image cap" />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">{post.data.title}</h5>
+                <p class="card-text">{post.data.description}</p>
+                <a href={`/blog/${post.slug}/`} class="btn btn-secondary">Read more ...</a>
+              </div>
+              <div class="card-footer text-sm-end">
+                <FormattedDate date={post.data.pubDate} />
+              </div>
+            </div>
+          ))
+        }
 				</section>
 			</div>
 		</div>
