@@ -1,6 +1,7 @@
 {
   "name": "Cloudstrap",
   "short_name": "Cloudstrap",
+  "scope": "/",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#212529",
@@ -9,24 +10,24 @@
   "icons": [
     {
       "src": "favicon/favicon-70x69.png",
-      "sizes": "70x69",
+      "sizes": "70x",
       "type": "image/png"
     },
     {
       "src": "favicon/favicon-150x149.png",
-      "sizes": "150x149",
+      "sizes": "150x",
       "type": "image/png",
       "purpose": "any"
     },
     {
       "src": "favicon/favicon-310x308.png",
-      "sizes": "310x308",
+      "sizes": "310x",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
       "src": "favicon/favicon-600x595.png",
-      "sizes": "600x595",
+      "sizes": "600x",
       "type": "image/png"
     }
   ],
