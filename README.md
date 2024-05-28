@@ -17,6 +17,7 @@ Features:
 * SEO Optimization
 * Netlify-ready contact form
 * Sitemap
+* Progressive Web App (PWA)
 
 ## Project structure
 
@@ -29,6 +30,7 @@ Inside **Cloudstrap** template, you'll see the following folders and files:
 │   │   ├── favicon-70x69.png
 │   │   ├── favicon-150x149.png
 │   │   ├── favicon-310x308.png
+│   │   ├── favicon-600x595.png
 │   │   └── favicon.svg
 │   ├── browserconfig.xml
 │   ├── humans.txt
