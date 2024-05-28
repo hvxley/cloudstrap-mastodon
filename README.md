@@ -16,6 +16,7 @@ Features:
 * Mobile-first design
 * SEO Optimization
 * Netlify-ready contact form
+* Sitemap
 
 ## Project structure
 
@@ -24,7 +25,14 @@ Inside **Cloudstrap** template, you'll see the following folders and files:
 ```
 /
 ├── public/
-│   └── favicon.svg
+│   ├── favicons/
+│   │   ├── favicon-70x69.png
+│   │   ├── favicon-150x149.png
+│   │   ├── favicon-310x308.png
+│   │   └── favicon.svg
+│   ├── browserconfig.xml
+│   ├── humans.txt
+│   └── robots.txt
 ├── src/
 │   ├── components/
 │   │   ├── ColorModeButton.astro
@@ -69,3 +77,5 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+To generate a new Sitemap, update your domain URL in `astro.config.mjs` and run `npm run build`.

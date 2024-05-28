@@ -1,0 +1,7 @@
+This Astro starter was built by Cloud Huxley
+
+GitHub: https://github.com/hvxley
+BlueSky: https://bsky.app/profile/huxley.cloud
+Personal: https://huxley.cloud
+
+Check out the https://humanstxt.org/ protocol to see how you should format your humans.txt file
