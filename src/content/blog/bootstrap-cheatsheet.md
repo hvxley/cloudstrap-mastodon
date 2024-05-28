@@ -1,6 +1,6 @@
 ---
 title: 'Bootstrap Cheatsheet'
-description: 'We have to start somewhere'
+description: 'We have to start somewhere. This first post is a bit of a "kitchen sink", taken from the examples page of the Bootstrap docs.'
 pubDate: 'May 27 2024'
 heroImage: 'https://huxley.cloud/foxy.jpg'
 ogPic: 'https://huxley.cloud/foxy.jpg'

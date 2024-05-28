@@ -17,7 +17,7 @@ const posts = (await getCollection('blog')).sort(
           { posts.map((post) => (
             <div class="card w-75 my-5 mx-auto">
               <a href={`/blog/${post.slug}/`}>
-                <img src={post.data.heroImage} class="bd-placeholder-img card-img-top rounded-top" aria-label="Blog Post Image cap" alt="Blog Post image cap" />
+                <img src={post.data.heroImage} class="bd-placeholder-img card-img-top rounded-top" aria-label="Click to view the Blog Post" alt="blog post" />
               </a>
               <div class="card-body">
                 <h5 class="card-title">{post.data.title}</h5>
