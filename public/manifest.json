@@ -4,6 +4,7 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#212529",
+  "theme_color": "#aa87de",
   "description": "🌩️ Cloudstrap: An Astro starter template utilizing Bootstrap, Astro-Icons & Sass.",
   "icons": [
     {
@@ -14,11 +15,18 @@
     {
       "src": "favicon/favicon-150x149.png",
       "sizes": "150x149",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "favicon/favicon-310x308.png",
       "sizes": "310x308",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "favicon/favicon-600x595.png",
+      "sizes": "600x595",
       "type": "image/png"
     }
   ]
