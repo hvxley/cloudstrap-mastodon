@@ -26,6 +26,7 @@ Inside **Cloudstrap** template, you'll see the following folders and files:
 ├── public/
 │   ├── favicons/
 │   │   └── favicon.svg
+│   ├── bootstrap-logo-white.svg
 │   ├── humans.txt
 │   └── robots.txt
 ├── src/

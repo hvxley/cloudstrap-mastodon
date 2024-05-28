@@ -1008,7 +1008,7 @@ ogPic: 'https://huxley.cloud/foxy.jpg'
    <nav class="navbar navbar-expand-lg bg-body-tertiary">
      <div class="container-fluid">
        <a class="navbar-brand" href="#">
-         <img src="/docs/5.3/assets/brand/bootstrap-logo-white.svg" width="38" height="30" class="d-inline-block align-top" alt="Bootstrap" loading="lazy"
+         <img src="../../../bootstrap-logo-white.svg" width="38" height="30" class="d-inline-block align-top" alt="Bootstrap" loading="lazy"
               style="filter: invert(1) grayscale(100%) brightness(200%);">
        </a>
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -1047,7 +1047,7 @@ ogPic: 'https://huxley.cloud/foxy.jpg'
    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mt-5">
      <div class="container-fluid">
        <a class="navbar-brand" href="#">
-         <img src="/docs/5.3/assets/brand/bootstrap-logo-white.svg" width="38" height="30" class="d-inline-block align-top" alt="Bootstrap" loading="lazy">
+         <img src="../../../bootstrap-logo-white.svg" width="38" height="30" class="d-inline-block align-top" alt="Bootstrap" loading="lazy">
        </a>
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -1178,40 +1178,56 @@ ogPic: 'https://huxley.cloud/foxy.jpg'
    </div>
 </div>
 <h4>Scrollspy</h4>
-<div class="bd-example">
-   <nav id="navbar-example2" class="navbar bg-body-tertiary px-3">
-     <a class="navbar-brand" href="#">Navbar</a>
-     <ul class="nav nav-pills">
-       <li class="nav-item">
-         <a class="nav-link active" href="#scrollspyHeading1">First</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#scrollspyHeading2">Second</a>
-       </li>
-       <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-         <ul class="dropdown-menu">
-           <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-           <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-           <li><hr class="dropdown-divider"></li>
-           <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
-         </ul>
-       </li>
-     </ul>
-   </nav>
-   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example position-relative mt-2 overflow-auto" tabindex="0">
-       <h4 id="scrollspyHeading1">First heading</h4>
-       <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-       <h4 id="scrollspyHeading2">Second heading</h4>
-       <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-       <h4 id="scrollspyHeading3">Third heading</h4>
-       <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-       <h4 id="scrollspyHeading4">Fourth heading</h4>
-       <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-       <h4 id="scrollspyHeading5">Fifth heading</h4>
-       <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-     </div>
-   </div>
+<div class="row">
+  <div class="col-4">
+    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">Item 1</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+        </nav>
+        <a class="nav-link" href="#item-2">Item 2</a>
+        <a class="nav-link" href="#item-3">Item 3</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+          <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+        </nav>
+      </nav>
+    </nav>
+  </div>
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+      <div id="item-1">
+        <h4>Item 1</h4>
+        <p>...</p>
+      </div>
+      <div id="item-1-1">
+        <h5>Item 1-1</h5>
+        <p>...</p>
+      </div>
+      <div id="item-1-2">
+        <h5>Item 1-2</h5>
+        <p>...</p>
+      </div>
+      <div id="item-2">
+        <h4>Item 2</h4>
+        <p>...</p>
+      </div>
+      <div id="item-3">
+        <h4>Item 3</h4>
+        <p>...</p>
+      </div>
+      <div id="item-3-1">
+        <h5>Item 3-1</h5>
+        <p>...</p>
+      </div>
+      <div id="item-3-2">
+        <h5>Item 3-2</h5>
+        <p>...</p>
+      </div>
+    </div>
+  </div>
 </div>
 <h4>Spinners</h4>
 <div class="m-5 border-0">
@@ -1265,20 +1281,6 @@ ogPic: 'https://huxley.cloud/foxy.jpg'
  <div class="spinner-grow text-dark" role="status">
    <span class="visually-hidden">Loading...</span>
  </div>
-</div>
-<h4>Toasts</h4>
-<div class="m-5 border-0 bg-dark p-5 align-items-center">
-  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header">
-      <img src="..." class="rounded me-2" alt="...">
-      <strong class="me-auto">Bootstrap</strong>
-      <small class="text-muted">11 mins ago</small>
-      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-    </div>
-    <div class="toast-body">
-      Hello, world! This is a toast message.
-    </div>
-  </div>
 </div>
 <h4>Tooltips</h4>
 <div class="m-5 border-0 tooltip-demo">
