@@ -1,13 +1,9 @@
 ---
 import Layout from './Layout.astro';
 import type { CollectionEntry } from 'astro:content';
-import Footer from '../components/Footer.astro';
-import NavBar from '../components/NavBar.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-
 const { title, description, pubDate, heroImage, ogPic } = Astro.props;
 ---
 <Layout title={title} description={description} ogPic={ogPic}>

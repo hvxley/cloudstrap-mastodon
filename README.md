@@ -39,12 +39,22 @@ Inside **Cloudstrap** template, you'll see the following folders and files:
 │   ├── components/
 │   │   ├── ColorModeButton.astro
 │   │   ├── ColorModeGraphics.astro
+│   │   ├── FormattedDate.astro
 │   │   ├── Footer.astro
 │   │   ├── Meta.astro
 │   │   └── Navbar.astro
+│   ├── content/
+│   │   ├── blog/
+|   │   │   ├── bootstrap-cheatsheet.md
+|   │   │   └── post-2.md
+│   │   └── config.ts
 │   ├── layouts/
+│   │   ├── BlogPost.astro
 │   │   └── Layout.astro
 │   ├── pages/
+│   │   ├──blog/
+|   │   │   ├── [...slug].astro
+|   │   │   └── index.astro
 │   │   ├── about.astro
 │   │   ├── index.astro
 │   │   └── thankyou.astro
