@@ -8,12 +8,12 @@ const { title, description, pubDate, heroImage, ogPic } = Astro.props;
 ---
 <Layout title={title} description={description} ogPic={ogPic}>
   <article>
-		<div class="bg-tertiary text-body py-5 text-left">
+		<div class="bg-tertiary py-5 text-left col-10">
 	    <div class="container py-5">
-	      <div class="col-sm-10 mx-auto">
+	      <div class="col-10 mx-auto">
   				<img src={heroImage} class="img-fluid" alt="Hero" />
   			</div>
-				<h1 class="display-1 fw-bold text-body text-center">{title}</h1>
+				<h1 class="display-1 fw-bold text-body-secondary text-center">{title}</h1>
 				<h2 class="fs-1 fw-bold text-secondary text-center"><FormattedDate date={pubDate} /></h2>
 				<div class="col-lg-6 mx-auto">
 					<slot />

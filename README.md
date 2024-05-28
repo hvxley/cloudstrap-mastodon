@@ -10,14 +10,12 @@ This free starter template brings bootstrap, astro-icons, and Sass to your Astro
 Check back again soon!
 
 Features:
-* Dark Mode (Lighthouse accessibility score of 94)
-* Light Mode (Lighthouse accessibility score of 100)
+* Color mode featuring Light, Dark, and Auto.
 * Icon Pack [from astro-icons, iconify, and remix](https://icon-sets.iconify.design/ri/)
 * Mobile-first design
 * SEO Optimization
-* Netlify-ready contact form
+* Netlify-ready Contact Form
 * Sitemap
-* Progressive Web App (PWA)
 
 ## Project structure
 
@@ -27,12 +25,7 @@ Inside **Cloudstrap** template, you'll see the following folders and files:
 /
 ├── public/
 │   ├── favicons/
-│   │   ├── favicon-70x69.png
-│   │   ├── favicon-150x149.png
-│   │   ├── favicon-310x308.png
-│   │   ├── favicon-600x595.png
 │   │   └── favicon.svg
-│   ├── browserconfig.xml
 │   ├── humans.txt
 │   └── robots.txt
 ├── src/
