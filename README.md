@@ -85,3 +85,8 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
 To generate a new Sitemap, update your domain URL in `astro.config.mjs` and run `npm run build`.
+
+## Lighthouse Score
+<video width="100%" controls>
+  <source src="lighthouse.webm" type="video/webm">
+</video>
