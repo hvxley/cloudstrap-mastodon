@@ -88,5 +88,5 @@ To generate a new Sitemap, update your domain URL in `astro.config.mjs` and run 
 
 ## Lighthouse Score
 <video width="100%" controls>
-  <source src="lighthouse.webm" type="video/webm">
+  <source src="https://github.com/hvxley/cloudstrap/raw/main/lighthouse.webm" type="video/webm">
 </video>
