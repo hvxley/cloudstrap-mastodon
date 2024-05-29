@@ -87,6 +87,3 @@ All commands are run from the root of the project, from a terminal:
 To generate a new Sitemap, update your domain URL in `astro.config.mjs` and run `npm run build`.
 
 ## Lighthouse Score
-<video width="100%" controls>
-  <source src="https://github.com/hvxley/cloudstrap/raw/main/lighthouse.webm" type="video/webm">
-</video>
