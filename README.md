@@ -87,3 +87,4 @@ All commands are run from the root of the project, from a terminal:
 To generate a new Sitemap, update your domain URL in `astro.config.mjs` and run `npm run build`.
 
 ## Lighthouse Score
+![Lighthouse Score](https://cloudstrap.huxley.cloud/lighthouse.png "Lighthouse Score")
