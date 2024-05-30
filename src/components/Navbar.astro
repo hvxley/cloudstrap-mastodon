@@ -5,12 +5,12 @@ const { title } = Astro.props;
 ---
 <header>
   <nav class="navbar navbar-expand-sm bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="https://cloudstrap.huxley.cloud/">{title}</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container">
+      <a class="navbar-brand col-sm-4" href="https://cloudstrap.huxley.cloud/">{title}</a>
+      <button class="navbar-toggler col-sm-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="justify-content-sm-center d-flex">
+      <div class="justify-content-sm-end d-flex col-sm-4">
         <ColorModeButton />
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
