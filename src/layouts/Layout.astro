@@ -26,7 +26,9 @@ const { title, description, ogPic } = Astro.props;
 	<body>
     <ColorModeGraphics />
     <Navbar title="Cloudstrap" />
-    <slot />
+    <main class="bg-body-tertiary">
+      <slot />
+    </main>
 		<Footer />
     <script src={bootstrap}></script>
 	</body>
