@@ -41,8 +41,14 @@ const { title } = Astro.props;
         <div class="modal-body">
           <div class="col-lg-10 mx-auto">
             <p class="fs-5 mb-4">Please use the form below to reach out to us directly. Each form field is required.</p>
-              <form name="contact-us" action="/thankyou/" method="post" data-netlify="true">
+              <form name="contact-us" action="/thankyou/" method="post" data-netlify-recaptcha="true" netlify-honeypot="company" data-netlify="true">
               <div class="d-grid gap-2 justify-content-sm-center">
+                <p class="hidden">
+                  <label>
+                    Company:
+                    <input name="company" />
+                  </label>
+                </p>
                 <div class="input-group mb-3">
                   <span class="input-group-text" id="inputGroup-full-name"><Icon name="ri:map-pin-user-fill" size={15} /></span>
                   <input type="text" name="fullName" class="form-control" aria-label="Input for user's full name" aria-describedby="inputGroup-full-name" placeholder="Full name" required>
@@ -53,6 +59,8 @@ const { title } = Astro.props;
                 </div>
                 <div class="input-group mb-3">
                   <textarea name="message" class="form-control" aria-label="Input for user's message" aria-describedby="inputGroup-message" placeholder="Say it ..." required></textarea>
+                </div>
+                <div data-netlify-recaptcha="true">
                 </div>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <input type="reset" class="btn btn-outline-secondary" value="Reset" />
@@ -68,5 +76,9 @@ const { title } = Astro.props;
 <style>
   span.nav-link {
     cursor: pointer;
+  }
+
+  .hidden {
+    display: none;
   }
 </style>
