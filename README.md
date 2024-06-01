@@ -5,16 +5,18 @@
 npm create astro@latest -- --template hvxley/cloudstrap
 ```
 
-This free starter template brings bootstrap, astro-icons, and Sass to your Astro project.
+This free Astro starter template brings Bootstrap, Astro-Icons, and Sass to your project.
 
 Check back again soon!
 
 Features:
+* Astro v4.9
+* Bootstrap v5.3
 * Color mode featuring Light, Dark, and Auto.
 * Icon Pack [from astro-icons, iconify, and remix](https://icon-sets.iconify.design/ri/)
 * Mobile-first design
 * SEO Optimization
-* Netlify-ready Contact Form
+* Netlify-ready Contact Form with Recaptcha
 * Sitemap
 
 ## Project structure
@@ -27,6 +29,7 @@ Inside **Cloudstrap** template, you'll see the following folders and files:
 │   ├── favicons/
 │   │   └── favicon.svg
 │   ├── bootstrap-logo-white.svg
+│   ├── lighthouse.png
 │   ├── humans.txt
 │   └── robots.txt
 ├── src/
@@ -40,7 +43,7 @@ Inside **Cloudstrap** template, you'll see the following folders and files:
 │   ├── content/
 │   │   ├── blog/
 |   │   │   ├── bootstrap-cheatsheet.md
-|   │   │   └── post-2.md
+|   │   │   └── bootstrap-grid.md
 │   │   └── config.ts
 │   ├── layouts/
 │   │   ├── BlogPost.astro
@@ -53,13 +56,14 @@ Inside **Cloudstrap** template, you'll see the following folders and files:
 │   │   ├── index.astro
 │   │   └── thankyou.astro
 │   ├── scripts/
+│   │   ├── bs-initial.js
 │   │   └── color-modes.js
 │   ├── styles/
 │   │   └── stylesheet.scss
 │   └── env.d.ts
 ├── .gitignore
-├── package.json
 ├── astro.config.mjs
+├── package.json
 ├── README.md
 ├── tsconfig.json
 └── ...
