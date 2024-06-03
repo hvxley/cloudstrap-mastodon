@@ -18,6 +18,7 @@ Features:
 * SEO Optimization
 * Netlify-ready Contact Form with Recaptcha
 * Sitemap
+* Mastodon mentions in blog posts
 
 ## Project structure
 
