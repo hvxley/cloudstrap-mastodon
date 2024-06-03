@@ -1,8 +1,8 @@
-# Cloudstrap Theme for Astro
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b60352ff-0308-4fc4-8b98-a35eee6772aa/deploy-status)](https://app.netlify.com/sites/cloudstrap/deploys)![GitHub last commit](https://img.shields.io/github/last-commit/hvxley/cloudstrap)
+# Cloudstrap-mastodon Theme for Astro
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27f03041-17a9-4279-b612-619185f7b5a8/deploy-status)](https://app.netlify.com/sites/cloudstrap-mastodon/deploys)
 
 ```sh
-npm create astro@latest -- --template hvxley/cloudstrap
+npm create astro@latest -- --template hvxley/cloudstrap-mastodon
 ```
 
 This free Astro starter template brings Bootstrap, Astro-Icons, and Sass to your project.
@@ -22,7 +22,7 @@ Features:
 
 ## Project structure
 
-Inside **Cloudstrap** template, you'll see the following folders and files:
+Inside **Cloudstrap-mastodon** template, you'll see the following folders and files:
 
 ```
 /
@@ -44,7 +44,8 @@ Inside **Cloudstrap** template, you'll see the following folders and files:
 │   ├── content/
 │   │   ├── blog/
 |   │   │   ├── bootstrap-cheatsheet.md
-|   │   │   └── bootstrap-grid.md
+|   │   │   ├── bootstrap-grid.md
+|   │   │   └── mastodon-mentions.md
 │   │   └── config.ts
 │   ├── layouts/
 │   │   ├── BlogPost.astro

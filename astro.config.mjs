@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://cloudstrap.huxley.cloud', // Change this to your site's URL
+  site: 'https://cloudstrap-mastodon.huxley.cloud', // Change this to your site's URL
   integrations: [icon(), sitemap()],
   markdown: {
     remarkPlugins: [
